@@ -1,0 +1,145 @@
+html{
+    height: 100%;
+    
+}
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.video-wrapper{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.tiles-container{
+    z-index: 1;
+    width: 100%;
+    top: -170px;
+    position: absolute;
+}
+.video-tiles{
+    padding: 10px;
+    height: 150px;
+    background-color: #515761;
+}
+.pull-out-tiles{
+    overflow: hidden;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15px;
+    background-color: #262E3A;
+}
+
+.left-pane{
+    width: 400px;
+    margin-left: -325px;
+    background-color: #151B24;
+}
+.host{ 
+    padding: 3px;
+    border-radius: 2px;
+    text-align: right;
+   
+    color: #fff;
+    background-color: #262E3A;
+}
+.host-title{
+    background-color: #fff;
+    text-align: right;
+    padding: 10px 6px 25px 6px;
+}
+.host-name{
+    font-weight: bold;
+    margin-right: 10px;
+    vertical-align: middle;
+    font-size: 20pt;
+}
+.host-picture{
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+}
+.meet-pane{
+    display: flex;
+    justify-content: end;
+}
+.side-action{
+    width: 50px;
+}
+.main-video-area{
+    height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.partner-video{
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    background-size: cover;
+}
+.bottom-actions-bar{
+    height: fit-content;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    justify-content: space-between;
+    width: 100%;
+}
+.bottom-action{
+    border: none;
+    background-position: center;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    height: 40px;
+    outline: none;
+    box-shadow: 0px 1px 2px gray;
+    border-radius: 50%;
+    margin:8px;
+    width: 40px;
+    background-color: #fff;
+}
+.bottom-action:hover{
+    background-color: rgb(240, 240, 240);
+}
+#toggle-chat-pane{
+    background-image: url('../images/chat.png');
+}
+
+#toggle-mute{
+    background-image: url('../images/mic_on.png');
+}
+
+#toggle-video{
+    background-image: url('../images/video_on.png');
+}
+#share-screen{
+    background-image: url('../images/s_share_off.png');
+}
+
+#end-button{
+    color: #fff;
+    background-color: #EB3636;
+    border-radius: 10px;
+    width: 80px;
+    text-align: center;
+    font-weight:bold; 
+}
+
+
+.side-actions-bar{
+    height: 45px;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 50px;
+    background-color: blue;
+}
